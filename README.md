@@ -2,6 +2,16 @@
 
 A professional, scalable dashboard application for analyzing mobile app security, permissions, components, and dependencies.
 
+## 🚀 Live Demo
+
+**[View Live Dashboard](https://app-scanner-dashboard-at9hselsp.vercel.app)**
+
+Currently showcasing analysis of **Popcorn Time v3.6.10** with:
+- 85/100 Risk Score
+- 5 High-Risk Vulnerabilities  
+- 69 Total Permissions (25 malware-prone)
+- Binary Security Analysis
+
 ## Features
 
 - **Overview Dashboard**: Key metrics, risk scores, and vulnerability summaries
@@ -32,8 +42,8 @@ A professional, scalable dashboard application for analyzing mobile app security
 
 1. Clone the repository:
 \`\`\`bash
-git clone <repository-url>
-cd app-scanner-dashboard
+git clone https://github.com/MrSingh0011/AppScannerDashboard.git
+cd AppScannerDashboard
 \`\`\`
 
 2. Install dependencies:
@@ -138,11 +148,14 @@ To use your own app scanner JSON data:
 
 ### Vercel (Recommended)
 
-1. Push code to GitHub
-2. Import project in Vercel
-3. Deploy automatically
+**Live Demo:** https://app-scanner-dashboard-at9hselsp.vercel.app
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/MrSingh0011/AppScannerDashboard)
+
+```bash
+npm install -g vercel
+vercel --prod
+```
 
 ### Other Platforms
 
@@ -166,9 +179,14 @@ npm start
 
 MIT
 
+## Repository
+
+**GitHub:** https://github.com/MrSingh0011/AppScannerDashboard  
+**Live Demo:** https://app-scanner-dashboard-at9hselsp.vercel.app
+
 ## Author
 
-\`\`\`
+**MrSingh0011** - [GitHub Profile](https://github.com/MrSingh0011)
 
 ```typescriptreact file="app/layout.tsx" isDeleted="true"
 ...deleted...
