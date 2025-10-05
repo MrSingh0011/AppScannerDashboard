@@ -1,0 +1,9 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/page": "/",
+  "/components/page": "/components",
+  "/dependencies/page": "/dependencies",
+  "/permissions/page": "/permissions",
+  "/report/page": "/report",
+  "/security/page": "/security"
+}
