@@ -1,7 +1,7 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/dependencies/page": "app/dependencies/page.js",
   "/components/page": "app/components/page.js",
+  "/dependencies/page": "app/dependencies/page.js",
   "/page": "app/page.js",
   "/permissions/page": "app/permissions/page.js",
   "/report/page": "app/report/page.js",
