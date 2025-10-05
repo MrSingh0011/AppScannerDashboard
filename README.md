@@ -4,7 +4,7 @@ A professional, scalable dashboard application for analyzing mobile app security
 
 ## 🚀 Live Demo
 
-**[View Live Dashboard](https://mrsingh0011.github.io/AppScannerDashboard/)**
+**[View Live Dashboard](https://mrsingh0011.github.io/AppScannerDashboard/simple.html)**
 
 Currently showcasing analysis of **Popcorn Time v3.6.10** with:
 - 85/100 Risk Score
