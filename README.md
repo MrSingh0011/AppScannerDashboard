@@ -4,7 +4,7 @@ A professional, scalable dashboard application for analyzing mobile app security
 
 ## 🚀 Live Demo
 
-**[View Live Dashboard](https://mrsingh0011.github.io/AppScannerDashboard/simple.html)**
+**[View Live Dashboard](https://app-scanner-dashboard-nnjarhbn6.vercel.app)**
 
 Currently showcasing analysis of **Popcorn Time v3.6.10** with:
 - 85/100 Risk Score
@@ -146,9 +146,9 @@ To use your own app scanner JSON data:
 
 ## Deployment
 
-### GitHub Pages (Recommended)
+### Vercel (Recommended)
 
-**Live Demo:** https://mrsingh0011.github.io/AppScannerDashboard/
+**Live Demo:** https://app-scanner-dashboard-nnjarhbn6.vercel.app
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/MrSingh0011/AppScannerDashboard)
 
@@ -182,7 +182,7 @@ MIT
 ## Repository
 
 **GitHub:** https://github.com/MrSingh0011/AppScannerDashboard  
-**Live Demo:** https://mrsingh0011.github.io/AppScannerDashboard/
+**Live Demo:** https://app-scanner-dashboard-nnjarhbn6.vercel.app
 
 ## Author
 
