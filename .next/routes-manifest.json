@@ -2,8 +2,16 @@
   "version": 3,
   "pages404": true,
   "caseSensitive": false,
-  "basePath": "",
+  "basePath": "/AppScannerDashboard",
   "redirects": [
+    {
+      "source": "/AppScannerDashboard",
+      "destination": "/AppScannerDashboard/",
+      "basePath": false,
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^/AppScannerDashboard$"
+    },
     {
       "source": "/:file((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/]+\\.\\w+)/",
       "destination": "/:file",
@@ -88,5 +96,15 @@
     "pathHeader": "x-nextjs-rewritten-path",
     "queryHeader": "x-nextjs-rewritten-query"
   },
-  "rewrites": []
+  "rewrites": {
+    "beforeFiles": [
+      {
+        "source": "/AppScannerDashboard//_next/:path+",
+        "destination": "/AppScannerDashboard/_next/:path+",
+        "regex": "^/AppScannerDashboard//_next(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))(?:/)?$"
+      }
+    ],
+    "afterFiles": [],
+    "fallback": []
+  }
 }

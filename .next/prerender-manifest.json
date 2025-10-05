@@ -1,6 +1,30 @@
 {
   "version": 4,
   "routes": {
+    "/components": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/components",
+      "dataRoute": "/components.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/report": {
       "experimentalBypassFor": [
         {
@@ -120,37 +144,13 @@
         "x-next-revalidated-tags",
         "x-next-revalidate-tag-token"
       ]
-    },
-    "/components": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/components",
-      "dataRoute": "/components.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
     }
   },
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "9a18fecbd33a9d4f3c7b146ab2587905",
-    "previewModeSigningKey": "bc2f083873a1dd6e5e354dbf8210344d936117469c7ac89b77c93ac239755d0b",
-    "previewModeEncryptionKey": "af26ce83cf2989e75a3080a4ab99e9304924cfd0dade0e63775c7927b783dfb5"
+    "previewModeId": "fa48d7ce5133313150bcf7f07b7ad438",
+    "previewModeSigningKey": "ab192c4fe8f96ec8eeae87c6fd2436dcd6660bc2d15e70e932f3905b65e741f0",
+    "previewModeEncryptionKey": "604636f06f3e196fe7bfd1e5466f408c95869eefaddd1f53c47e4723d12fb48f"
   }
 }
